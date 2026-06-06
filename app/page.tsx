@@ -41,6 +41,9 @@ export default function Home() {
       <Sidebar />
       <main className="flex-1 p-8 overflow-y-auto w-full">
         {/* Upper Navigation Row */}
+        <main>
+      <h1>Student Dashboard Running 🚀</h1>
+    </main>
         <header className="flex justify-end items-center gap-6 mb-8">
           <button className="text-gray-400 hover:text-white transition">
             <Search size={18} />
@@ -88,3 +91,5 @@ export default function Home() {
     </div>
   );
 }
+
+  
